@@ -22,58 +22,58 @@ export default function Header() {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/docs">SUPPLEMENT</Link>
+                  <Link  className="text-black/60" href="/supplement">SUPPLEMENT</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/docs">LASER</Link>
+                  <Link  className="text-black/60" href="/laser">LASER</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
                  <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/docs">REVIEWS</Link>
+                  <Link  className="text-black/60" href="/reviews">REVIEWS</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
                 <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/docs">JOURNAL</Link>
+                  <Link  className="text-black/60" href="/journal">JOURNAL</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
                 <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/docs">ABOUT</Link>
+                  <Link  className="text-black/60" href="/about">ABOUT</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
 
-
+        <Link href="/">
         <h2 className="text-2xl font-bold text-center">LYMA</h2>
-
+        </Link>
 
         <div>
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/about">HELP & SUPPORT</Link>
+                  <Link  className="text-black/60" href="/support">HELP & SUPPORT</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
                 <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/about">ACTIVATE</Link>
+                  <Link  className="text-black/60" href="/activate">ACTIVATE</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
                 <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/about">ACCOUNT</Link>
+                  <Link className="text-black/60" href="/account">ACCOUNT</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
           
             </NavigationMenuList>
-             <Button className="ml-[70px]">BUY</Button>
+             <Button className="min-w-[64px] h-[23px] rounded-none ml-[70px]">BUY</Button>
           </NavigationMenu>
           
         </div>

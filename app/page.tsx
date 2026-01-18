@@ -1,9 +1,16 @@
-import Image from "next/image";
+import Hero from "@/features/pages/main/components/heroBanner";
+import SecondBanner from "@/features/pages/main/components/secondBanner";
+import ThreeBanner from "@/features/pages/main/components/threeBanner";
+import hero from "@/assets/images/hero.jpg"
+import innovation from "@/assets/images/innovation.jpg";
 
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1>Next Project</h1>
-    </div>
-  );
-}
+  return (<>
+    <Hero image={hero} title="THE FUTURE OF WELLNES."
+    description="The perfect balance of scines, nature and technology. Prepare to look and fell
+                your absolute best."/>
+    <SecondBanner/>
+    <ThreeBanner/>
+    <Hero image={innovation} title="WELLNES INNOVATION AT ITS SCIENTIFIC BEST."/>
+  </>);
+};
