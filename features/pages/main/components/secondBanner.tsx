@@ -8,9 +8,7 @@ export default function SecondBanner() {
     <div className="grid grid-cols-1 md:grid-cols-2 mt-[16px] gap-5">
       
       <div className="relative flex items-center justify-center w-full h-[500px]">
-        <Image src={laser} alt="laser"
-          className="absolute w-full h-full object-cover top-0 left-0"
-          />
+        <Image src={laser} alt="laser" className="absolute w-full h-full object-cover top-0 left-0"/>
 
         <div className="relative z-10 flex flex-col items-center text-center text-white gap-4 px-4 mt-[20px]">
           <h2 className="text-3xl font-bold tracking-[1px]">LASER TECHNOLOGY</h2>

@@ -13,7 +13,6 @@ export default function Hero({title, description, image}: HeroProps){
     return(
     <div className="flex flex-col items-center justify-center relative w-full h-[100vh] mt-[16px]">
             <Image src={image} alt="hero" className="w-full h-full object-cover"></Image>
-
         <div className="flex flex-col items-center absolute text-white">
              <h1 className="text-[54px] w-[850px] text-center">{title}</h1>
         
