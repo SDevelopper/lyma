@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Montserrat } from "next/font/google"
 import Header from "@/components/layout/header";
-import Footer from "@/components/layout/footer";
+import Footer from "@/components/layout/footer/footer";
 
 
 const montserrat = Montserrat({
